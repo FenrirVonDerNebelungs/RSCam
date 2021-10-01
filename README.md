@@ -7,7 +7,7 @@ Requires the librealsense SDK to be installed (currently SDK2)
 compile hellors.cpp
 $ g++ -std=c++11 hellors.cpp -lrealsense2 -o helloex
 
-Open CV was installed and built from source, for openCV to compile the appropriate environment variables must be set in the shell. currently sourcing the uploaded shell script source.sh
+Open CV was installed and built from source, for openCV to compile the appropriate environment variables must be set in the shell. currently sourcing the uploaded shell script setenv.sh
 
 compile rmImg.cpp
 $ g++ -std=c++11 rsImg.cpp -lrealsense2 -lopencv_core -lopencv_highgui -o rsImgex
